@@ -54,7 +54,7 @@ const page = () => {
             type="text"
             value={name}
             onChange={(event) => setName(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>
@@ -65,19 +65,19 @@ const page = () => {
             type="text"
             value={place}
             onChange={(event) => setPlace(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>
 
-        {/* City */}
+    
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter City</p>
           <input
             type="text"
             value={city}
             onChange={(event) => setCity(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>
@@ -89,7 +89,7 @@ const page = () => {
             type="text"
             value={noun}
             onChange={(event) => setNoun(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>
@@ -101,7 +101,7 @@ const page = () => {
             type="text"
             value={adjective}
             onChange={(event) => setAdjective(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>
@@ -113,7 +113,7 @@ const page = () => {
             type="text"
             value={adverb}
             onChange={(event) => setAdverb(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>
@@ -125,7 +125,7 @@ const page = () => {
             type="text"
             value={animal}
             onChange={(event) => setAnimal(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>
@@ -137,7 +137,7 @@ const page = () => {
             type="text"
             value={sillyword}
             onChange={(event) => setSillyword(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>
@@ -149,7 +149,7 @@ const page = () => {
             type="text"
             value={food}
             onChange={(event) => setFood(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>
@@ -161,7 +161,7 @@ const page = () => {
             type="text"
             value={otherfriends}
             onChange={(event) => setOtherfriends(event.target.value)}
-            placeholder="0"
+            placeholder="type..."
             className="w-full h-20 md:h-[104px] rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-2xl md:text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6"
           />
         </div>

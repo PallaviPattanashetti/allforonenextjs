@@ -8,10 +8,12 @@ import Link from "next/link";
 
 const MagicBallsPage = () => {
   const [questions, setQuestions] = useState("");
+  const[result, setResult]=useState("");
+
 
   const handleQuestions = async () => {
     let data = await MagicFetch(questions);
-    setQuestions(data);
+   setResult(data);
     console.log(data);
   };
 
@@ -31,7 +33,7 @@ const MagicBallsPage = () => {
           type="text"
           value={questions}
           onChange={(event) => setQuestions(event.target.value)}
-          placeholder="0"
+          placeholder="type..."
           className="w-[800px] h-24 rounded-[25px] bg-black/60 border-2 border-white text-white text-[32px] font-bold font-['Instrument_Sans'] outline-none px-6 text-center"
         />
 
@@ -48,7 +50,8 @@ const MagicBallsPage = () => {
         <div
           
           className="w-218 h-24 rounded-[25px] bg-black/60  flex items-center justify-center text-white text-[32px] font-bold p-8"
-        > {questions}</div>
+        > {result}</div>
+        
 
  <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full mt-12 mb-25">
  
