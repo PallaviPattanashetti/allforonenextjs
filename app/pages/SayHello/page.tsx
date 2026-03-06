@@ -40,13 +40,13 @@ const Page = () => {
         >
           SUBMIT
         </button>
-        <div className="w-full max-w-[800px] h-24 rounded-[25px] bg-black/60 border-2 border-white flex items-center justify-center text-white text-[32px] font-bold p-8">
+        <div className="w-full max-w-[800px] h-24 rounded-[25px] bg-black/60 flex items-center justify-center text-white text-[32px] font-bold p-8">
     {greeting}
 </div>
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full mt-12 mb-25">
  
   <Link 
-    href="/page" 
+    href="/pages/homepage" 
     className="w-full md:w-auto font-['Instrument_Sans'] text-2xl md:text-[32px] font-bold text-white bg-white/10 px-10 py-3 rounded-[15px] border-2 border-white/30 hover:bg-[#880F0F]/90 hover:border-white transition-all shadow-lg text-center"
   >
     ← Back Home

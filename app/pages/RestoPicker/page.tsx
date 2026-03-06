@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import BG from "@/public/assets/BG.png";
 import PickerFetch from "@/app/Scripts/restaurentpicker";
 import { Button } from "flowbite-react";
+import Link from "next/dist/client/link";
 
 const page = () => {
 
@@ -50,12 +51,12 @@ const handleQuestions = async () => {
         >{category}</div>
 
         <div className="flex items-center justify-center gap-12 w-full mb-25">
-          <button
-       
+          <Link
+       href="/pages/homepage" 
             className="font-['Instrument_Sans'] text-[32px] font-bold text-white bg-white/10 px-10 py-3 rounded-[15px] border-2 border-white/30 hover:bg-[#880F0F]/90 hover:border-white transition-all shadow-lg mt-24"
           >
             ← Back Home
-          </button>
+          </Link>
         </div>
       </div>
     </div>

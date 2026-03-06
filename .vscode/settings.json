@@ -21,5 +21,7 @@
   "cSpell.words": [
     "Madlab",
     "Resto"
-  ]
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/889a8464-73ea-41c5-bf8e-5c70a886bb3a/resourceGroups/AllforOnepp/providers/Microsoft.Web/sites/allforonenextjs",
+  "appService.deploySubpath": "."
 }
