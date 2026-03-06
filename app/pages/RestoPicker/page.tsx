@@ -52,7 +52,7 @@ const handleQuestions = async () => {
 
         <div className="flex items-center justify-center gap-12 w-full mb-25">
           <Link
-       href="/pages/homepage" 
+       href="../" 
             className="font-['Instrument_Sans'] text-[32px] font-bold text-white bg-white/10 px-10 py-3 rounded-[15px] border-2 border-white/30 hover:bg-[#880F0F]/90 hover:border-white transition-all shadow-lg mt-24"
           >
             ← Back Home
