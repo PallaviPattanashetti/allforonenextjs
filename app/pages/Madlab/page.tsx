@@ -45,9 +45,9 @@ const page = () => {
         MadLab
       </h1>
 
-      {/* Grid Container replacing rigid Flex Rows */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 w-full max-w-[1100px] mb-12">
-        {/* Name */}
+        
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter Name</p>
           <input
@@ -59,7 +59,6 @@ const page = () => {
           />
         </div>
 
-        {/* Place */}
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter Place</p>
           <input
@@ -83,7 +82,7 @@ const page = () => {
           />
         </div>
 
-        {/* Noun */}
+      
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter Noun</p>
           <input
@@ -95,7 +94,7 @@ const page = () => {
           />
         </div>
 
-        {/* Adjective */}
+        
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter Adjective</p>
           <input
@@ -107,7 +106,7 @@ const page = () => {
           />
         </div>
 
-        {/* Adverb */}
+       
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter Adverb</p>
           <input
@@ -119,7 +118,7 @@ const page = () => {
           />
         </div>
 
-        {/* Animal */}
+       
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter Animal</p>
           <input
@@ -131,7 +130,7 @@ const page = () => {
           />
         </div>
 
-        {/* Silly Word */}
+       
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter Silly word</p>
           <input
@@ -143,7 +142,7 @@ const page = () => {
           />
         </div>
 
-        {/* Food */}
+       
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter Food</p>
           <input
@@ -155,7 +154,7 @@ const page = () => {
           />
         </div>
 
-        {/* Other Friends */}
+       
         <div>
           <p className="text-white font-['Instrument_Sans'] mb-2 ml-2">Enter otherfriends</p>
           <input
@@ -183,7 +182,7 @@ const page = () => {
         </div>
       </div>
 <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 w-full mt-12 mb-25">
-  {/* Back Home Link - assuming your home is at "/" */}
+
   <Link 
     href="/" 
     className="w-full md:w-auto font-['Instrument_Sans'] text-2xl md:text-[32px] font-bold text-white bg-white/10 px-10 py-3 rounded-[15px] border-2 border-white/30 hover:bg-[#880F0F]/90 hover:border-white transition-all shadow-lg text-center"
