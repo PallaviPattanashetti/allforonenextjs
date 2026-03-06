@@ -1,2 +1,2 @@
 PeerReview===
-Arianna Huntley - The design is nice I like that you can click through the pages with front and back buttons, the only issue I had was none of the pages would show an output, the terminal said failed to fetch.
+Arianna Huntley-I really like the overall design and I like that you can click through the pages. the only issue i had was the restaurant picker doesn't let me type. very good job overall!
